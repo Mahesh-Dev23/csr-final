@@ -1,0 +1,514 @@
+$darkblue: #00008b;
+$deepblue: #191970;
+$clickable: RoyalBlue;
+$clickableHover: #4040a1;
+$hover: DodgerBlue;
+$darkgray: #666666;
+$deepgray: #222222;
+$gray: #dcdcdc;
+$gray2: #b4b4b4;
+$white: #ffffff;
+$tomato: #ff6347;
+$lilac: #d8bfd8;
+$purple: #663399;
+$Green: MediumSeaGreen;
+$softBlue: #7b68ee;
+$khaki: #bdb76b;
+$olive: #556b2f;
+
+body {
+	color: $darkgray;
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+.section {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+.navigation {
+	background-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.5)
+	);
+	height: 10vh;
+	width: 100vw;
+
+	position: fixed;
+	bottom: 0;
+}
+.prev {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 10px;
+	width: 90px;
+	background: $clickable;
+	color: $white;
+	font-weight: 500;
+	margin-bottom: 20px;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.disabledButton {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	padding: 5px 10px;
+	width: 180px;
+	line-height: 15px;
+	background: $deepgray;
+	color: $tomato;
+	font-weight: 500;
+	margin-bottom: 20px;
+	transition-duration: 0.5s;
+	cursor: not-allowed;
+}
+.disabledButton:hover {
+	background: $white;
+}
+.next {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	width: 90px;
+	background: $clickable;
+	color: $white;
+	font-weight: 500;
+	margin-bottom: 20px;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.prev:hover,
+.next:hover {
+	background: $clickableHover;
+	color: $white;
+}
+.labelDemo {
+	font-weight: 400;
+	text-align: left;
+	width: 78vw;
+	margin: 0;
+	margin-left: 15px;
+	margin-top: 15px;
+	left: 0;
+}
+
+.carousel-inner .active {
+	background-color: none;
+}
+
+.radioInlineDemo {
+	border-bottom: 1px solid $gray;
+	padding: 1vh 1vw;
+	margin-bottom: 5px;
+	text-align: left;
+	label {
+		text-align: left;
+		font-weight: 500;
+		color: $clickable;
+		margin: 0 5px;
+		margin-right: 10px;
+		line-height: 30px;
+	}
+	input {
+		margin: 5px;
+	}
+	input[type="radio"] {
+		height: 20px;
+		width: 20px;
+		border-color: $clickable;
+		margin: 2px;
+		margin-right: 5px;
+		background: $gray;
+		line-height: 30px;
+	}
+	span {
+		display: block;
+	}
+}
+.radioLabel {
+	cursor: pointer;
+	font-weight: 500;
+	color: $clickable;
+	background: rgba($gray, 0.3);
+	padding: 5px 10px;
+	margin: 2px 0;
+	line-height: 20px;
+
+	text-align: center;
+	display: inline-block;
+	input[type="radio"] {
+		height: 20px;
+		width: 20px;
+		border-color: $clickable;
+		margin: 2px;
+		display: block;
+		background: $gray;
+	}
+}
+.radioInline4c {
+	border-bottom: 1px solid $gray;
+	padding: 1vh 1vw;
+	margin-bottom: 5px;
+	.dis {
+		display: inline-block;
+		width: 90%;
+		color: $deepblue;
+	}
+	.selectPanel4c {
+		width: 100%;
+
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-between;
+		label {
+			text-align: center;
+			font-weight: 400;
+			color: $clickable;
+			width: calc(99% / 7);
+			display: inline;
+			line-height: 20px;
+		}
+		input {
+			margin: 5px;
+			display: inline;
+		}
+	}
+
+	span {
+		display: block;
+	}
+}
+.radioInline6 {
+	border-bottom: 1px solid $gray;
+	padding: 1vh 1vw;
+	margin-bottom: 5px;
+	.dis {
+		display: inline-block;
+		width: 90%;
+		color: $deepblue;
+	}
+	.selectPanel6 {
+		width: 100%;
+
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-between;
+		label,
+		.radioLabel {
+			text-align: center;
+			font-weight: 400;
+			color: $clickable;
+			width: calc(99% / 5);
+			display: inline;
+			line-height: 30px;
+		}
+		input {
+			margin: 5px;
+			display: inline;
+		}
+	}
+
+	span {
+		display: block;
+	}
+}
+
+.slot1 {
+	width: 33.33%;
+	padding: 15px;
+
+	display: inline-block;
+	background: rgba(#e9967a, 0.1);
+}
+.slot2 {
+	width: 33.33%;
+	padding: 15px;
+
+	display: inline-block;
+	background: rgba(#e9967a, 0.2);
+}
+.slot3 {
+	width: 33.33%;
+	padding: 15px;
+
+	display: inline-block;
+	background: rgba(#e9967a, 0.3);
+}
+
+#Welcome {
+	width: 100vw;
+	height: 100vh;
+	min-height: 100vh;
+	background: $deepgray;
+	padding: 12vh 12vw;
+	#myCarousel {
+		height: 58vh;
+	}
+	.intro {
+		height: 58vh;
+		background: none;
+	}
+	.carousel-indicators {
+		margin-bottom: -20px;
+		li {
+			margin: 0 5px;
+		}
+	}
+	p {
+		color: $gray2;
+		font-size: 16px;
+		margin-top: 10px;
+		text-align: justify;
+	}
+	h5 {
+		line-height: 18px;
+		text-align: left;
+		color: $gray;
+	}
+	span {
+		color: $clickable;
+	}
+	#demo {
+		margin-top: 20px;
+		background: rgba($darkgray, 0.3);
+		padding: 5px 0;
+	}
+	input,
+	select {
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+}
+.profilepic {
+	width: 16vh;
+	height: 16vh;
+	border-radius: 8vh;
+	overflow: hidden;
+	border: 5px solid rgba($gray, 0.5);
+	margin: 20px 0;
+	margin-left: 50%;
+
+	transform: translateX(-50%);
+}
+.panel {
+	width: 80vw;
+	margin: auto;
+	border-radius: 0;
+	margin-top: 12vh;
+	height: 75vh;
+	background: rgba($white, 0.8);
+	overflow: hidden;
+	.panel-heading {
+		font-weight: 700;
+		color: $white;
+	}
+	.panel-body {
+		height: 72vh;
+		overflow-y: scroll;
+		padding: 0;
+		color: $darkgray;
+		padding-bottom: 50px;
+		h4 {
+			color: $hover;
+			font-size: 16px;
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 0;
+			padding: 15px;
+			background: rgba($gray, 0.3);
+			width: 78vw;
+			border-bottom: 1px solid $gray;
+		}
+	}
+}
+#Demographic {
+	background: rgba($lilac, 0.3) url("./q1.png") no-repeat right bottom;
+}
+
+#Loyalty {
+	background: rgba(#663399, 0.2) url("./q2.png") no-repeat right bottom;
+	h4,
+	.num {
+		color: rgba(#663399, 0.6);
+	}
+}
+#Roi {
+	background: rgba(#66cdaa, 0.2) url("./q3.png") no-repeat right bottom;
+	h4,
+	.num {
+		color: MediumSeaGreen;
+	}
+}
+
+#Motivational {
+	background: rgba(#e9967a, 0.2) url("./q4.png") no-repeat right bottom;
+	h4,
+	.num {
+		color: Tomato;
+	}
+}
+
+#Leadership {
+	background: rgba(#7b68ee, 0.2) url("./q5.png") no-repeat right bottom;
+	h4,
+	.num {
+		color: #7b68ee;
+	}
+}
+
+#Govt {
+	background: rgba(#bdb76b, 0.3) url("./q6.png") no-repeat right bottom;
+}
+
+#Prefer {
+	background: rgba(#556b2f, 0.2) url("./q7.png") no-repeat right bottom;
+}
+
+#Thanks {
+	background: tomato;
+	text-align: center;
+	color: $white;
+	h3,
+	p {
+		margin: 10px 0;
+	}
+}
+.qTitles {
+	position: sticky;
+	display: block;
+	top: 0;
+	background: $gray;
+	width: 78vw;
+	border-bottom: 1px solid $gray;
+	padding: 5px;
+}
+
+.num {
+	width: 4vw;
+	text-align: left;
+	display: inline-block;
+	line-height: 30px;
+}
+.dis {
+	width: 47vw;
+	display: inline-block;
+	text-align: left;
+}
+.dis-scale {
+	display: inline-block;
+	width: 20vw;
+	text-align: left;
+}
+.insrt,
+.selectPanel {
+	width: 25vw;
+	min-width: 140px;
+	display: inline-block;
+}
+.radioInline {
+	display: block;
+	background: rgba($gray, 0.2);
+	width: 78vw;
+	border-bottom: 1px solid $gray;
+	padding: 5px;
+	transition-duration: 0.3s;
+}
+.radioInline:hover {
+	background: rgba($white, 1);
+}
+
+@media only screen and (orientation: portrait) {
+	h3 {
+		font-size: 16px;
+	}
+	h5 {
+		font-size: 12px;
+	}
+	p {
+		font-size: 14px;
+	}
+	.section {
+		padding: 3vh 5vw;
+	}
+	#Welcome {
+		padding: 3vh 5vw;
+		#demo {
+			padding: 5px 10px;
+		}
+		p {
+			text-align: left;
+			font-size: 14px;
+		}
+		.intro {
+			height: 52vh;
+			overflow-y: scroll;
+		}
+	}
+	.profilepic {
+		width: 10vh;
+		height: 10vh;
+	}
+	.panel {
+		width: 100%;
+		height: 85vh;
+		margin-top: 0;
+		.panel-body {
+			height: 83vh;
+			h4 {
+				width: 100%;
+			}
+		}
+	}
+
+	.navigation {
+		height: 15vh;
+	}
+	.qTitles {
+		width: 100%;
+	}
+	.radioInline {
+		width: 100%;
+	}
+	.num {
+		width: 7%;
+	}
+	.dis,
+	.dis-scale {
+		width: 93%;
+	}
+	.selectPanel {
+		width: 100%;
+	}
+	.radioLabel {
+		background: None;
+		input[type="radio"] {
+			border-right: 1px solid $darkgray;
+		}
+	}
+	.two {
+		.selectPanel {
+			width: 100px;
+			margin: 0 auto;
+		}
+		.num {
+			width: 100%;
+			text-align: center;
+		}
+		.dis-scale {
+			width: 93%;
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,76 @@
+@import "main";
+
+#dashboard {
+	background: $gray;
+	height: 100vh;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#dataresult {
+	position: absolute;
+	float: left;
+	width: 72%;
+	height: 100vh;
+	padding: 4%;
+	border-right: 1px solid rgba($darkgray, 0.5);
+}
+#nameList {
+	position: absolute;
+	right: 0;
+	width: 20%;
+}
+.nameToPdf {
+	background: rgba($white, 0.3);
+	padding: 5px;
+	color: $clickable;
+	margin: 1px 0;
+	transition-duration: 0.5s;
+}
+.nameToPdf:hover {
+	background: rgba($white, 1);
+}
+.nameTabs {
+	@extend .nameToPdf;
+	display: inline-block;
+	margin: 1px;
+}
+#printView {
+	width: 100%;
+	height: 75vh;
+	background: white;
+	border-right: 1px solid rgba($darkgray, 0.3);
+	padding: 40px;
+	overflow-y: scroll;
+}
+.resultToPrint {
+	width: 100%;
+	margin: 0;
+	text-align: left;
+	border-bottom: 1px solid rgba($darkgray, 0.3);
+	display: block;
+	h5,
+	p {
+		display: inline-block;
+		margin: 7px 5px;
+		text-align: left;
+		font-weight: 400;
+	}
+	h5 span {
+		color: $clickable;
+		font-weight: 500;
+		border: 2px solid $tomato;
+		padding: 3px;
+		min-width: 24px;
+		width: auto;
+		border-radius: 30%;
+	}
+}
+#downloads {
+	background: $clickable;
+	color: $white;
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto;
+	padding: 5px;
+}
