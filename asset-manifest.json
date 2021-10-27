@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb8a73db.chunk.css",
-    "main.js": "/static/js/main.da300306.chunk.js",
-    "main.js.map": "/static/js/main.da300306.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0411d66b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0411d66b.js.map",
-    "static/js/2.b1bcf034.chunk.js": "/static/js/2.b1bcf034.chunk.js",
-    "static/js/2.b1bcf034.chunk.js.map": "/static/js/2.b1bcf034.chunk.js.map",
-    "static/js/3.416d8451.chunk.js": "/static/js/3.416d8451.chunk.js",
-    "static/js/3.416d8451.chunk.js.map": "/static/js/3.416d8451.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.eb8a73db.chunk.css.map": "/static/css/main.eb8a73db.chunk.css.map",
-    "static/js/2.b1bcf034.chunk.js.LICENSE.txt": "/static/js/2.b1bcf034.chunk.js.LICENSE.txt",
-    "static/media/manoj.0acd41b5.png": "/static/media/manoj.0acd41b5.png",
-    "static/media/admin.scss": "/static/media/q7.451045a2.png",
-    "static/media/thanks.b5ee13fb.png": "/static/media/thanks.b5ee13fb.png"
+    "main.css": "/csr/static/css/main.104c4359.chunk.css",
+    "main.js": "/csr/static/js/main.da300306.chunk.js",
+    "main.js.map": "/csr/static/js/main.da300306.chunk.js.map",
+    "runtime-main.js": "/csr/static/js/runtime-main.4912caf8.js",
+    "runtime-main.js.map": "/csr/static/js/runtime-main.4912caf8.js.map",
+    "static/js/2.b1bcf034.chunk.js": "/csr/static/js/2.b1bcf034.chunk.js",
+    "static/js/2.b1bcf034.chunk.js.map": "/csr/static/js/2.b1bcf034.chunk.js.map",
+    "static/js/3.416d8451.chunk.js": "/csr/static/js/3.416d8451.chunk.js",
+    "static/js/3.416d8451.chunk.js.map": "/csr/static/js/3.416d8451.chunk.js.map",
+    "index.html": "/csr/index.html",
+    "static/css/main.104c4359.chunk.css.map": "/csr/static/css/main.104c4359.chunk.css.map",
+    "static/js/2.b1bcf034.chunk.js.LICENSE.txt": "/csr/static/js/2.b1bcf034.chunk.js.LICENSE.txt",
+    "static/media/manoj.0acd41b5.png": "/csr/static/media/manoj.0acd41b5.png",
+    "static/media/admin.scss": "/csr/static/media/q7.451045a2.png",
+    "static/media/thanks.b5ee13fb.png": "/csr/static/media/thanks.b5ee13fb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0411d66b.js",
+    "static/js/runtime-main.4912caf8.js",
     "static/js/2.b1bcf034.chunk.js",
-    "static/css/main.eb8a73db.chunk.css",
+    "static/css/main.104c4359.chunk.css",
     "static/js/main.da300306.chunk.js"
   ]
 }
