@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/survey/csr/static/css/main.932588f5.chunk.css",
-    "main.js": "/survey/csr/static/js/main.66719d96.chunk.js",
-    "main.js.map": "/survey/csr/static/js/main.66719d96.chunk.js.map",
-    "runtime-main.js": "/survey/csr/static/js/runtime-main.1818789f.js",
-    "runtime-main.js.map": "/survey/csr/static/js/runtime-main.1818789f.js.map",
-    "static/js/2.b1bcf034.chunk.js": "/survey/csr/static/js/2.b1bcf034.chunk.js",
-    "static/js/2.b1bcf034.chunk.js.map": "/survey/csr/static/js/2.b1bcf034.chunk.js.map",
-    "static/js/3.416d8451.chunk.js": "/survey/csr/static/js/3.416d8451.chunk.js",
-    "static/js/3.416d8451.chunk.js.map": "/survey/csr/static/js/3.416d8451.chunk.js.map",
-    "index.html": "/survey/csr/index.html",
-    "static/css/main.932588f5.chunk.css.map": "/survey/csr/static/css/main.932588f5.chunk.css.map",
-    "static/js/2.b1bcf034.chunk.js.LICENSE.txt": "/survey/csr/static/js/2.b1bcf034.chunk.js.LICENSE.txt",
-    "static/media/manoj.0acd41b5.png": "/survey/csr/static/media/manoj.0acd41b5.png",
-    "static/media/admin.scss": "/survey/csr/static/media/q7.451045a2.png",
-    "static/media/thanks.b5ee13fb.png": "/survey/csr/static/media/thanks.b5ee13fb.png"
+    "main.css": "/static/css/main.eb8a73db.chunk.css",
+    "main.js": "/static/js/main.f1c41ed6.chunk.js",
+    "main.js.map": "/static/js/main.f1c41ed6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0411d66b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0411d66b.js.map",
+    "static/js/2.b1bcf034.chunk.js": "/static/js/2.b1bcf034.chunk.js",
+    "static/js/2.b1bcf034.chunk.js.map": "/static/js/2.b1bcf034.chunk.js.map",
+    "static/js/3.416d8451.chunk.js": "/static/js/3.416d8451.chunk.js",
+    "static/js/3.416d8451.chunk.js.map": "/static/js/3.416d8451.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.eb8a73db.chunk.css.map": "/static/css/main.eb8a73db.chunk.css.map",
+    "static/js/2.b1bcf034.chunk.js.LICENSE.txt": "/static/js/2.b1bcf034.chunk.js.LICENSE.txt",
+    "static/media/manoj.0acd41b5.png": "/static/media/manoj.0acd41b5.png",
+    "static/media/admin.scss": "/static/media/q7.451045a2.png",
+    "static/media/thanks.b5ee13fb.png": "/static/media/thanks.b5ee13fb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1818789f.js",
+    "static/js/runtime-main.0411d66b.js",
     "static/js/2.b1bcf034.chunk.js",
-    "static/css/main.932588f5.chunk.css",
-    "static/js/main.66719d96.chunk.js"
+    "static/css/main.eb8a73db.chunk.css",
+    "static/js/main.f1c41ed6.chunk.js"
   ]
 }
